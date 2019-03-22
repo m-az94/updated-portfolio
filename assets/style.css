@@ -26,6 +26,7 @@ body{
     border: 5px solid #e39147;
 }
 #intro {
+    margin: 5vw;
     margin-top: 18%;
     font-size: 3vw;
     color: #e39147;
@@ -56,7 +57,7 @@ body{
 }
 .worksImg{
     height: 12vw;
-    width: 20vw;
+    width: 18vw;
     margin: 1.5vw;
     margin-top: 0vw;
     margin-bottom: 2.5vw;
