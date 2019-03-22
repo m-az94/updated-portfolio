@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    background-color: #e4f6f8;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar{
+    background-color:#F5BF7B;
+} 
+.nav-link, .brand{
+    color:#00696C;
+}
+.icon{
+    margin: 7px;
+    color: #006963;
+}
+#introduction{
+    background-color: #006963;
+    height: 57vw;
+
+}
+#myImg{
+    margin: 5vw;
+    margin-top: 40%;
+    width: 25vw;
+    border: 5px solid #e39147;
+}
+#intro {
+    margin-top: 18%;
+    font-size: 3vw;
+    color: #e39147;
+}
+.myWork{
+    border: 3px solid #e39147;
+    background-color: #006963;
+    font-size: 2vw;
+    padding: 1vw;
+    color: #e39147;
+}
+/* My Works Page */
+#portfolio{
+    background-color: #00979C;
+    height: 57vw;
+}
+#portfolioTitle{
+    padding-top: 4vw;
+    color: #f5bf7b;
+    font-size: 5vw;
+    text-align: center;
+}
+#proj1, #proj2, #proj3{
+    background-color:#F5BF7B;
+    border-radius: 5px;
+    height: 40vw;
+    margin: 10px;
+}
+.worksImg{
+    height: 12vw;
+    width: 20vw;
+    margin: 1.5vw;
+    margin-top: 0vw;
+    margin-bottom: 2.5vw;
+    border: 3px solid #00979C;
+}
+.worksTitle{
+    text-align: center;
+    font-size: 2.5vw;
+    color:#00979C;
+    padding-top: 1vw;
+}
+.instructions{
+    text-align: center;
+    font-size: 1.5vw;
+    color:#00979C;
+}
+/* Contacts Page */
+#contacts{
+    background-color: #004141;
+    height: 57vw;
+}
+#contactsTitle{
+    padding-top: 4vw;
+    color: #e39147;
+    font-size: 5vw;
+    text-align: center;
+}
+.contactsLabels{
+    font-size: 2vw;
+    color: #e39147;
+}
+.footer{
+    background-color:#F5BF7B;
+    color: #006963;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 4vw;
+    text-align: center;
+    width:100%;
+}

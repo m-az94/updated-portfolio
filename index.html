@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Maria's Portfolio</title>
+         <!-- Reset -->
+         <!--link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+         <-- Bootstrap File -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+         <!-- JQuery -->
+         <script src="https://code.jquery.com/jquery.js"></script>
+         <!-- Firebase Reference -->
+         <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+         <!---moment.js-->
+         <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+         <!--- Google Fonts -->
+         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+         <!-- Awesome Fonts -->
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+         <!-- style.css -->
+         <link rel="stylesheet" type="text/css" href="assets/style.css">
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand brand" id="myBrand">Maria Azam</a>
+                          
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link scrollBTN"id="mainBTN" href="#introduction">Main</a><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollBTN" id="portfolioBTN" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollBTN" id="contactsBTN" href="#contacts">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="assets/Maria Azam Resume.pdf" class="icon"><i class="far fa-id-badge fa-lg"></i></a></li>
+                        <li>
+                            <a href="https://github.com/m-az94" target="_blank" class="icon"><i class="fab fa-github fa-lg"></i></a>
+                        </li>
+                        <li>
+                            <a class="icon" href="https://www.linkedin.com/in/maria-azam-644417107/" target="_blank"> <i class="fab fa-linkedin-in fa-lg"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+            <div id="introduction">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="assets/images/profile.jpeg" id="myImg">
+                        </div>
+                        <div class="col-md-7" id="intro"></div>
+                    </div>
+                    <div class="row" id="myWorks"></div>
+                </div>
+            </div>
+
+            <div id="portfolio">
+                <div class="container">
+                    <h1 id="portfolioTitle">My Works</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div id="proj1">
+                                <p class="worksTitle">Hangman</p>
+                                <p class="instructions">Click to Play:</p>
+                                <a href="https://m-az94.github.io/word-guess-game/" target="_blank"><img class= "worksImg" src="assets/images/hangman.png"></a>
+                
+                                <p class="instructions">Click to View the Source Code:</p>
+                                <a href="https://github.com/m-az94/word-guess-game/" target="_blank"><img class="worksImg" src="assets/images/hangmanSRC.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="proj2">
+                                <p class="worksTitle">Train Scheduler</p>
+                                <p class="instructions">Click to Play:</p>
+                                <a href="https://m-az94.github.io/firebase-assignment/" target="_blank"><img class= "worksImg" src="assets/images/trainschedule.png"></a>
+                                <p class="instructions">Click to View the Source Code:</p>
+                                <a href="https://github.com/m-az94/firebase-assignment" target="_blank">
+                                <img class="worksImg" src="assets/images/trainscheduleSRC.png"></a>
+                            </div>
+                        </div> 
+                        <div class="col-md-4">
+                            <div id="proj3">                                
+                                <p class="worksTitle">RPG Game</p>
+                                <p class="instructions">Click to Play:</p>
+                                <a href="https://m-az94.github.io/unit-4-game/">
+                                <img class= "worksImg" src="assets/images/rpg.png" target="_blank"></a>
+                                <p class="instructions">Click to View the Source Code:</p>
+                                <a href="https://github.com/m-az94/unit-4-game" target="_blank">
+                                <img class="worksImg" src="assets/images/rpgSCR.png"></div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id='contacts'>
+                <div class="container">
+                    <h2 id="contactsTitle">Contacts</h2>
+                    <form>
+                            <div class="form-group">
+                              <label class="contactsLabels" for="formGroupExampleInput">Name</label>
+                              <input type="text" class="form-control" id="name" placeholder="ex. John Doe">
+                            </div>
+                            <div class="form-group">
+                              <label class="contactsLabels" for="formGroupExampleEmail">Email</label>
+                              <input type="email" class="form-control" id="email" placeholder="abc@defg.com">
+                            </div>
+                            <div class="form-group">
+                                    <label class="contactsLabels" for="formGroupExampleInput2">Message</label>
+                                    <textarea  type="text" class="form-control" id="message" placeholder="Write your message here." rows="8"></textarea>
+                             </div>
+                         <div class="form-group row">
+                            <input id="submit" type="submit" class="btn">Submit</input>
+                         </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer"> 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p>Contact Me: </p>
+                        </div>
+                        <div class="col-md-4">
+                            <div>647-309-6001</div>
+                            <div>Copyright &copy; Maria Azam 2019</div>
+                        </div>
+                        <div class="col-md-4">
+                            <p>mfazam.cs@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <script type="text/javascript" src="assets/logic.js"></script>
+        <script type="text/javascript" src="assets/contacts.js"></script>
+    </body>
+</html>
