@@ -30,7 +30,7 @@ body{
     font-size: 3vw;
     color: #e39147;
 }
-.myWork{
+.myWork, #submit{
     border: 3px solid #e39147;
     background-color: #006963;
     font-size: 2vw;

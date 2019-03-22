@@ -1,7 +1,5 @@
 //---- API Key firebase
 
- // Create a variable to reference the database
- var database = firebase.database();
 
    // Initialize Firebase
    var config = {
@@ -13,6 +11,10 @@
     messagingSenderId: "4377685241"
   };
   firebase.initializeApp(config);
+
+  // Create a variable to reference the database
+ var database = firebase.database();
+
 
 
   //----- Add Train Form ------
