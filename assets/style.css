@@ -25,7 +25,7 @@ body{
     width: 20vw;
     border: 5px solid #e39147;
 }
-#intro {
+.myIntro {
     margin: 5vw;
     margin-top: 18%;
     font-size: 3vw;
