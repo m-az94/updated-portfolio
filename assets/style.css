@@ -26,7 +26,7 @@ body{
     border: 5px solid #e39147;
 }
 #intro {
-    margin: 5vw;
+    margin: 7vw;
     margin-top: 18%;
     font-size: 3vw;
     color: #e39147;
@@ -52,12 +52,12 @@ body{
 #proj1, #proj2, #proj3{
     background-color:#F5BF7B;
     border-radius: 5px;
-    height: 40vw;
+    height: 45vw;
     margin: 10px;
 }
 .worksImg{
     height: 12vw;
-    width: 18vw;
+    width: 15vw;
     margin: 1.5vw;
     margin-top: 0vw;
     margin-bottom: 2.5vw;
