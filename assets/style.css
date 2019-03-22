@@ -22,11 +22,11 @@ body{
 #myImg{
     margin: 5vw;
     margin-top: 40%;
-    width: 25vw;
+    width: 20vw;
     border: 5px solid #e39147;
 }
 #intro {
-    margin: 10vw;
+    margin: 7vw;
     margin-top: 18%;
     font-size: 3vw;
     color: #e39147;
@@ -56,8 +56,8 @@ body{
     margin: 10px;
 }
 .worksImg{
-    height: 8vw;
-    width: 12vw;
+    height: 10vw;
+    width: 15vw;
     margin: 1.5vw;
     margin-top: 0vw;
     margin-bottom: 2.5vw;
